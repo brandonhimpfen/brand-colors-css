@@ -1,0 +1,30 @@
+{
+  "name": "brand-colours",
+  "version": "0.1.0",
+  "description": "A collection of major brands colour codes.",
+  "authors": [
+    "Brandon Himpfen <brandon@himpfen.com>"
+  ],
+  "homepage": "brandcolours.himpfen.io",
+  "keywords": [
+    "brand",
+    "color",
+    "colour",
+    "colors",
+    "colours",
+    "brand-color",
+    "brand-colour",
+    "brand-colors",
+    "brand-colours",
+    "branding"
+  ],
+  "main": "/brand-colours.css",
+  "ignore": [
+  "node-modules/**",
+  "test.html",
+  "README.md",
+  "LICENSE"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

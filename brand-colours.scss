@@ -1,0 +1,646 @@
+/*! * BrandColours.scss v1.0.0 by @brandonhimpfen
+ * Copyright by Brandon Himpfen
+ * Licensed under the GNU GPL 2 http://www.gnu.org/licenses/gpl-2.0.html
+ * Website: brandcolours.ca
+ */
+ 
+@import "compass/css3";
+//@import "base";
+
+//add the following variables to your _base.scss:
+//-------------------------
+$color_0: #fff;
+$color_1: #94c948;
+$color_2: #e50670;
+$color_3: #fb0a2a;
+$color_4: #02adea;
+$color_5: #00405d;
+$color_6: #fc3;
+$color_7: #ff6138;
+$color_8: #f00;
+$color_9: #fcd20b;
+$color_10: #e47911;
+$color_11: #a4c639;
+$color_12: #7fbb00;
+$color_13: #0060a3;
+$color_14: #000;
+$color_15: #036;
+$color_16: #2319dc;
+$color_17: #e10601;
+$color_18: #005cff;
+$color_19: #003b64;
+$color_20: #fff200;
+$color_21: #97b538;
+$color_22: #ffb900;
+$color_23: #ee6123;
+$color_24: #fc4f08;
+$color_25: #0039a6;
+$color_26: #003580;
+$color_27: #613854;
+$color_28: #ff7243;
+$color_29: #e61a27;
+$color_30: #3d4944;
+$color_31: #8ba753;
+$color_32: #205cc0;
+$color_33: #3287c1;
+$color_34: #e54a4f;
+$color_35: #4e6252;
+$color_36: #2d72da;
+$color_37: #fd0001;
+$color_38: #febd17;
+$color_39: #59a3fc;
+$color_40: #db7132;
+$color_41: #ea4c89;
+$color_42: #3d9ae8;
+$color_43: #0c76ab;
+$color_44: #2a323a;
+$color_45: #89c507;
+$color_46: #f05e1b;
+$color_47: #00bdf6;
+$color_48: #528036;
+$color_49: #eb6d20;
+$color_50: #5ba525;
+$color_51: #dd0017;
+$color_52: #3b5998;
+$color_53: #e66000;
+$color_54: #0063dc;
+$color_55: #ff0084;
+$color_56: #5b9a68;
+$color_57: #25a0ca;
+$color_58: #be0027;
+$color_59: #007cc3;
+$color_60: #2d75a2;
+$color_61: #f70078;
+$color_62: #171515;
+$color_63: #0140ca;
+$color_64: #16a61e;
+$color_65: #dd1812;
+$color_66: #fcca03;
+$color_67: #dd4b39;
+$color_68: #f77f00;
+$color_69: #82b548;
+$color_70: #f60;
+$color_71: #0085ca;
+$color_72: #6567a5;
+$color_73: #c7c5e6;
+$color_74: #73ba37;
+$color_75: #ec6231;
+$color_76: #003e6a;
+$color_77: #f3ce13;
+$color_78: #3f729b;
+$color_79: #1c1c1c;
+$color_80: #0071c5;
+$color_81: #365ebf;
+$color_82: #76cc1e;
+$color_83: #e03500;
+$color_84: #00af81;
+$color_85: #c3000d;
+$color_86: #0e76a8;
+$color_87: #cf0005;
+$color_88: #576396;
+$color_89: #a086d3;
+$color_90: #e51937;
+$color_91: #183693;
+$color_92: #76b900;
+$color_93: #cc0f16;
+$color_94: #e41f11;
+$color_95: #1e477a;
+$color_96: #3b7bbf;
+$color_97: #0000e6;
+$color_98: #c8232c;
+$color_99: #665cbe;
+$color_100: #ee4056;
+$color_101: #318bff;
+$color_102: #0f71b4;
+$color_103: #a82400;
+$color_104: #66ceff;
+$color_105: #008fd5;
+$color_106: #9c0000;
+$color_107: #c00;
+$color_108: #ee3825;
+$color_109: #7eb400;
+$color_110: #0ba6ab;
+$color_111: #62b0d9;
+$color_112: #ee802f;
+$color_113: #1798c1;
+$color_114: #0c4da2;
+$color_115: #96bf48;
+$color_116: #00aff0;
+$color_117: #f47a20;
+$color_118: #008ace;
+$color_119: #f70;
+$color_120: #f86960;
+$color_121: #81b71a;
+$color_122: #fee100;
+$color_123: #121212;
+$color_124: #ef8236;
+$color_125: #d7584f;
+$color_126: #008cdd;
+$color_127: #00afe1;
+$color_128: #f74425;
+$color_129: #ea0a8e;
+$color_130: #f40;
+$color_131: #40a800;
+$color_132: #ef4423;
+$color_133: #5cb868;
+$color_134: #5eab1f;
+$color_135: #34526f;
+$color_136: #6441a5;
+$color_137: #00acee;
+$color_138: #9aca3c;
+$color_139: #ff8700;
+$color_140: #dd4814;
+$color_141: #38f;
+$color_142: #ef1d1d;
+$color_143: #86c9ef;
+$color_144: #00a478;
+$color_145: #06afd8;
+$color_146: #5b009c;
+$color_147: #21759b;
+$color_148: #d54e21;
+$color_149: #464646;
+$color_150: #2b88d9;
+$color_151: #9bc848;
+$color_152: #126567;
+$color_153: #720e9e;
+$color_154: #fc0;
+$color_155: #c41200;
+$color_156: #c4302b;
+$color_157: #5498dc;
+$color_158: #78a300;
+$color_159: #9dcc7a;
+$color_160: #5e8b1d;
+//--------------------------
+
+.brands {
+	color: $color_0;
+	padding: 10px;
+}
+.rounded {
+	@include border-radius(6px);
+}
+.23andMe {
+	background-color: $color_2;
+	/* (1) background-color was set before: old value: $color_1 - new value $color_2 */;
+}
+.4ormat {
+	background-color: $color_3;
+}
+.500px {
+	background-color: $color_4;
+}
+.Aboutme {
+	background-color: $color_6;
+	/* (2) background-color was set before: old value: $color_5 - new value $color_6 */;
+}
+.Addvocate {
+	background-color: $color_7;
+}
+.Adobe {
+	background-color: $color_8;
+}
+.Aim {
+	background-color: $color_9;
+}
+.Amazon {
+	background-color: $color_10;
+}
+.Android {
+	background-color: $color_11;
+}
+.AngiesList {
+	background-color: $color_12;
+}
+.AOL {
+	background-color: $color_13;
+}
+.Apple {
+	background-color: $color_14;
+}
+.Atlassian {
+	background-color: $color_15;
+}
+.Baidu {
+	background-color: $color_17;
+	/* (3) background-color was set before: old value: $color_16 - new value $color_17 */;
+}
+.Behance {
+	background-color: $color_18;
+}
+.BestBuy {
+	background-color: $color_20;
+	/* (4) background-color was set before: old value: $color_19 - new value $color_20 */;
+}
+.BigCartel {
+	background-color: $color_21;
+}
+.Bing {
+	background-color: $color_22;
+}
+.bitly {
+	background-color: $color_23;
+}
+.Blogger {
+	background-color: $color_24;
+}
+.Boeing {
+	background-color: $color_25;
+}
+.Bookingcom {
+	background-color: $color_26;
+}
+.Carbonmade {
+	background-color: $color_27;
+}
+.Cheddar {
+	background-color: $color_28;
+}
+.CocaCola {
+	background-color: $color_14;
+	/* (5) background-color was set before: old value: $color_29 - new value $color_14 */;
+}
+.CodeSchool {
+	background-color: $color_30;
+}
+.CreativeMarket {
+	background-color: $color_31;
+}
+.Delicious {
+	background-color: $color_32;
+}
+.Dell {
+	background-color: $color_33;
+}
+.Designmoo {
+	background-color: $color_34;
+}
+.Deviantart {
+	background-color: $color_35;
+}
+.DesignerNews {
+	background-color: $color_36;
+}
+.Devour {
+	background-color: $color_37;
+}
+.DEWALT {
+	background-color: $color_38;
+}
+.Disqus {
+	background-color: $color_40;
+	/* (6) background-color was set before: old value: $color_39 - new value $color_40 */;
+}
+.Dribbble {
+	background-color: $color_41;
+}
+.Dropbox {
+	background-color: $color_42;
+}
+.Drupal {
+	background-color: $color_43;
+}
+.Dunked {
+	background-color: $color_44;
+}
+.eBay {
+	background-color: $color_45;
+}
+.Ember {
+	background-color: $color_46;
+}
+.Engadget {
+	background-color: $color_47;
+}
+.Envato {
+	background-color: $color_48;
+}
+.Etsy {
+	background-color: $color_49;
+}
+.Evernote {
+	background-color: $color_50;
+}
+.Fabcom {
+	background-color: $color_51;
+}
+.Facebook {
+	background-color: $color_52;
+}
+.Firefox {
+	background-color: $color_53;
+}
+.Flickr {
+	background-color: $color_55;
+	/* (7) background-color was set before: old value: $color_54 - new value $color_55 */;
+}
+.Forrst {
+	background-color: $color_56;
+}
+.Foursquare {
+	background-color: $color_57;
+}
+.FutureShop {
+	background-color: $color_58;
+}
+.Garmin {
+	background-color: $color_59;
+}
+.GetGlue {
+	background-color: $color_60;
+}
+.Gimmebar {
+	background-color: $color_61;
+}
+.GitHub {
+	background-color: $color_62;
+}
+.Google {
+	background-color: $color_67;
+	/* (8) background-color was set before: old value: $color_63 - new value $color_64 */;
+	/* (9) background-color was set before: old value: $color_64 - new value $color_65 */;
+	/* (10) background-color was set before: old value: $color_65 - new value $color_66 */;
+	/* (11) background-color was set before: old value: $color_66 - new value $color_67 */;
+}
+.Grooveshark {
+	background-color: $color_68;
+}
+.Groupon {
+	background-color: $color_69;
+}
+.HackerNews {
+	background-color: $color_70;
+}
+.HelloWallet {
+	background-color: $color_71;
+}
+.Heroku {
+	background-color: $color_73;
+	/* (12) background-color was set before: old value: $color_72 - new value $color_73 */;
+}
+.HootSuite {
+	background-color: $color_15;
+}
+.Houzz {
+	background-color: $color_74;
+}
+.HTML5 {
+	background-color: $color_75;
+}
+.IBM {
+	background-color: $color_76;
+}
+.IKEA {
+	background-color: $color_6;
+}
+.IMDb {
+	background-color: $color_77;
+}
+.Instagram {
+	background-color: $color_78;
+}
+.Instapaper {
+	background-color: $color_79;
+}
+.Intel {
+	background-color: $color_80;
+}
+.Intuit {
+	background-color: $color_81;
+}
+.Kickstarter {
+	background-color: $color_82;
+}
+.kippt {
+	background-color: $color_83;
+}
+.Kodery {
+	background-color: $color_84;
+}
+.LastFM {
+	background-color: $color_85;
+}
+.LinkedIn {
+	background-color: $color_86;
+}
+.Livestream {
+	background-color: $color_87;
+}
+.Lumo {
+	background-color: $color_88;
+}
+.Mixpanel {
+	background-color: $color_89;
+}
+.Meetup {
+	background-color: $color_90;
+}
+.Nokia {
+	background-color: $color_91;
+}
+.NVIDIA {
+	background-color: $color_92;
+}
+.Opera {
+	background-color: $color_93;
+}
+.Path {
+	background-color: $color_94;
+}
+.PayPal {
+	background-color: $color_96;
+	/* (13) background-color was set before: old value: $color_95 - new value $color_96 */;
+}
+.Pinboard {
+	background-color: $color_97;
+}
+.Pinterest {
+	background-color: $color_98;
+}
+.PlayStation {
+	background-color: $color_99;
+}
+.Pocket {
+	background-color: $color_100;
+}
+.Prezi {
+	background-color: $color_101;
+}
+.Pusha {
+	background-color: $color_102;
+}
+.Quora {
+	background-color: $color_103;
+}
+.Rdio {
+	background-color: $color_105;
+}
+.Readability {
+	background-color: $color_106;
+}
+.RedHat {
+	background-color: $color_107;
+}
+.Reddit {
+	background-color: $color_108;
+}
+.Resource {
+	background-color: $color_109;
+}
+.Rockpack {
+	background-color: $color_110;
+}
+.Roon {
+	background-color: $color_111;
+}
+.RSS {
+	background-color: $color_112;
+}
+.Salesforce {
+	background-color: $color_113;
+}
+.Samsung {
+	background-color: $color_114;
+}
+.Shopify {
+	background-color: $color_115;
+}
+.Skype {
+	background-color: $color_116;
+}
+.Snagajob {
+	background-color: $color_117;
+}
+.Softonic {
+	background-color: $color_118;
+}
+.SoundCloud {
+	background-color: $color_119;
+}
+.SpaceBox {
+	background-color: $color_120;
+}
+.Spotify {
+	background-color: $color_121;
+}
+.Sprint {
+	background-color: $color_122;
+}
+.Squarespace {
+	background-color: $color_123;
+}
+.StackOverflow {
+	background-color: $color_124;
+}
+.Staples {
+	background-color: $color_107;
+}
+.StatusChart {
+	background-color: $color_125;
+}
+.Stripe {
+	background-color: $color_126;
+}
+.StudyBlue {
+	background-color: $color_127;
+}
+.StumbleUpon {
+	background-color: $color_128;
+}
+.TMobile {
+	background-color: $color_129;
+}
+.Taobao {
+	background-color: $color_130;
+}
+.Technorati {
+	background-color: $color_131;
+}
+.TheNextWeb {
+	background-color: $color_132;
+}
+.Treehouse {
+	background-color: $color_133;
+}
+.Trulia {
+	background-color: $color_134;
+}
+.Tumblr {
+	background-color: $color_135;
+}
+.Twitchtv {
+	background-color: $color_136;
+}
+.Twitter {
+	background-color: $color_137;
+}
+.Typekit {
+	background-color: $color_138;
+}
+.TYPO3 {
+	background-color: $color_139;
+}
+.Ubuntu {
+	background-color: $color_140;
+}
+.Ustream {
+	background-color: $color_141;
+}
+.Verizon {
+	background-color: $color_142;
+}
+.Vimeo {
+	background-color: $color_143;
+}
+.Vine {
+	background-color: $color_144;
+}
+.Virb {
+	background-color: $color_145;
+}
+.VirginMedia {
+	background-color: $color_107;
+}
+.Wooga {
+	background-color: $color_146;
+}
+.WordPress {
+	background-color: $color_149;
+	/* (14) background-color was set before: old value: $color_147 - new value $color_148 */;
+	/* (15) background-color was set before: old value: $color_148 - new value $color_149 */;
+}
+.Wunderlist {
+	background-color: $color_150;
+}
+.XBOX {
+	background-color: $color_151;
+}
+.XING {
+	background-color: $color_152;
+}
+.Yahoo {
+	background-color: $color_153;
+}
+.Yandex {
+	background-color: $color_154;
+}
+.Yelp {
+	background-color: $color_155;
+}
+.YouTube {
+	background-color: $color_156;
+}
+.Zalongo {
+	background-color: $color_157;
+}
+.Zendesk {
+	background-color: $color_158;
+}
+.Zerply {
+	background-color: $color_159;
+}
+.Zootool {
+	background-color: $color_160;
+}
+.QUOTE.fm {
+	background-color: $color_104;
+}
